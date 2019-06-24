@@ -1,0 +1,14 @@
+package ning.zhou.study.springcloud.stream;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StreamHelloApplication2 {
+
+    public static void main(String[] args) {
+        SpringApplication.run(StreamHelloApplication2.class, args);
+    }
+
+}
+;
