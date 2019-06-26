@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ning.zhou.study.springcloud.config</groupId>
-    <artifactId>config-client</artifactId>
+    <artifactId>config-client3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config-client</name>
+    <name>config-client3</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
