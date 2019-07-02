@@ -8,10 +8,10 @@
         <version>1.5.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ning.zhou.study.springcloud.zipkin</groupId>
-    <artifactId>zipkin-server</artifactId>
+    <groupId>ning.zhou.study.springcloud.sleuth</groupId>
+    <artifactId>sleuth-trace4</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zipkin-server</name>
+    <name>sleuth-trace4</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -32,16 +32,25 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-server</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.zipkin.java</groupId>
-            <artifactId>zipkin-autoconfigure-ui</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-stream</artifactId>
         </dependency>
 
         <dependency>
